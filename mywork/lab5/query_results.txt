@@ -1,0 +1,4 @@
+first_name	last_name	team	match_date	goal_time
+Lionel	Messi	PSG	2026-02-01	15:30:00
+Kylian	Mbappe	PSG	2026-02-03	18:45:00
+Neymar	Junior	PSG	2026-02-04	19:00:00
