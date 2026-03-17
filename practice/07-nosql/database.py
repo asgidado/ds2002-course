@@ -18,3 +18,4 @@ if __name__ == "__main__":
     for name in db.list_collection_names():
         count = db[name].count_documents({})
         print(f"{name}: {count} documents")
+    client.close()
