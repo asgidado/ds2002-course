@@ -25,3 +25,9 @@ echo "Redirection of echo/print output to specific file" > hello.txt
 # uncomment next line to print all environment variables related to SLURM
 # printenv | grep SLURM >> hello.txt
 
+
+WORKDIR=/scratch/$USER/ds2002-jobruns/text-analysis
+mkdir -p "$WORKDIR"
+cd "$WORKDIR"
+
+bash ~/ds2002-course/labs/07-hpc/create-book-files.sh

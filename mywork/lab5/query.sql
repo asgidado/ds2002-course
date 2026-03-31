@@ -7,3 +7,4 @@ SELECT
 FROM soccer_players s
 JOIN goals g ON s.id = g.player_id
 WHERE s.team = 'PSG';
+
